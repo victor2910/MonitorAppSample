@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aplicaciones.lectorconcentracion.Dash"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space"
+        android:layout_weight="0.23"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AQUATEK"
+        android:id="@+id/textView2"
+        android:textColor="#141441"
+        android:textSize="48dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Monitoreo para detectar arsénico en la salida de los efluentes mineros."
+        android:textSize="30dp"
+        android:textColor="#141441"
+        android:textAlignment="center"
+        android:layout_gravity="center" />
+
+</LinearLayout>

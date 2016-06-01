@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_vista_1"
+            android:icon="@drawable/ic_vector_statistics"
+            android:title="Concentración actual" />
+        <item
+            android:id="@+id/nav_vista_2"
+            android:icon="@drawable/ic_vector_statistics"
+            android:title="Histórico" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ajustes" />
+    </group>
+
+</menu>

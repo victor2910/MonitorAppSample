@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Configuraciones">
+        <SwitchPreference
+            android:key="conexion"
+            android:title="Conectar a la Nube"
+            android:summary="Activa la transmisión de datos desde la nube" />
+        <EditTextPreference
+            android:key="limitar"
+            android:title="Fijar limite"
+            android:summary="Introduce el valor del limite de concetración. Si sobrepasa, activa alerta"
+            android:dialogTitle="Introduce valor de concentración"
+            android:inputType="numberDecimal"/>
+    </PreferenceCategory>
+</PreferenceScreen>
